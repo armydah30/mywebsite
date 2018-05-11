@@ -1,0 +1,608 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+        <title>Hameedat Omoine's Portfolio</title>
+        <meta name="description" content="Portfolio: Hameedat Omoine. A student in Information Science, and graduate in BA Management Information Systems. I have experience in systems design, system architecture, and IT business analysis. I am a fan of technology, design, data science and web development. I am interested in innovation and change through technology.">
+        <meta name="keywords" content="Hire Business Analyst, Hire Web Applications Designer, Hire Frontend Developer, Hire frontend designer">
+        <meta charset="utf-8">
+        <meta name="author" content="Hameedat Omoine">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+        <meta name="google-site-verification" content="7eqWL-CTycWmiHmhztl2g9-hQTVG7ar3xB7rRVj7DbE" />
+
+        <!-- animation -->
+        <link rel="stylesheet"  type = "text/css" href='{{ url_for("static", filename= "css/animate.css") }}' />
+        <!-- bootstrap -->
+        <link rel="stylesheet"  type = "text/css" href='{{ url_for("static", filename= "css/bootstrap.css") }}'/>
+        <!-- et line icon -->
+        <link rel="stylesheet"  type = "text/css" href='{{ url_for("static", filename= "css/et-line-icons.css") }}'/>
+        <!-- font-awesome icon -->
+        <link rel="stylesheet"  type = "text/css" href='{{ url_for("static", filename= "css/font-awesome.min.css") }}' />
+        <!-- revolution slider -->
+        <link rel="stylesheet"  type = "text/css" href='{{ url_for("static", filename= "css/extralayers.css") }}' />
+        <link rel="stylesheet"  type = "text/css" href='{{ url_for("static", filename= "css/settings.css") }}' />
+        <!-- magnific popup -->
+        <link rel="stylesheet"  type = "text/css" href='{{ url_for("static", filename= "css/magnific-popup.css") }}' />
+        <!-- owl carousel -->
+        <link rel="stylesheet"  type = "text/css" href='{{ url_for("static", filename= "css/owl.carousel.css") }}' />
+        <link rel="stylesheet"  type = "text/css" href='{{ url_for("static", filename= "css/owl.transitions.css") }}'/>
+        <link rel="stylesheet"  type = "text/css" href='{{ url_for("static", filename= "css/full-slider.css") }}' />
+        <!-- text animation -->
+        <link rel="stylesheet"  type = "text/css" href='{{ url_for("static", filename= "css/text-effect.css") }}' />
+        <!-- hamburger menu  -->
+        <link rel="stylesheet"  type = "text/css" href='{{ url_for("static", filename= "css/menu-hamburger.css") }}' />
+        <!-- common -->
+        <link rel="stylesheet"  type = "text/css" href='{{ url_for("static", filename= "css/style.css") }}' />
+        <!-- responsive -->
+
+        <link rel="stylesheet"  type = "text/css" href='{{ url_for("static", filename= "css/responsive.css") }}' />
+        <!--[if IE]>
+            <link rel="stylesheet" href="css/style-ie.css" />
+        <![endif]-->
+        <!--[if IE]>
+            <script src="js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!-- navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top nav-transparent overlay-nav sticky-nav nav-border-bottom no-transition" role="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-2 col-xs-6"><a class="logo-light" href="/"><img alt="" src='{{ url_for("static", filename="images/hamilogo.png") }}' class="logo" /></a><a class="logo-dark" href="/"><img alt="" src='{{ url_for("static", filename="images/hamilogo.png") }}'class="logo" /></a></div>
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    </div>
+                    <div class="col-md-9 col-sm-10 text-right">
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#slider" class="inner-link">Home</a> </li>
+                                <li><a href="#features" class="inner-link">About</a> </li>
+                                <li><a href="#skills" class="inner-link">Skills</a></li>
+                                <li><a href="#education" class="inner-link">Education</a></li>
+                                <li><a href="#portfolio" class="inner-link">Portfolio</a></li>
+                                <li><a href="#contact-us" class="inner-link">Contact</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navigation -->
+        <!-- parallax section -->
+        <section class="parallax1 parallax-fix full-screen no-padding scroll-to-down" onclick="scrollToDown()" id="slider">
+            <div class="overlay-gray"></div>
+            <img class="parallax-background-img" src='{{ url_for("static", filename="images/ben3Personal.jpg") }}' alt="" />
+            <div class="container full-screen position-relative">
+                <div class="slider-typography">
+                    <div class="slider-text-middle-main">
+                        <div class="slider-text-middle slider-text-middle2 personal-name animated fadeIn">
+                            <h1 class="margin-two">I'm Hameedat Omoine</h1>
+                            <span class="cd-headline letters type text-uppercase">
+                                <span class="cd-words-wrapper waiting">
+                                    <b class="is-visible main-font text-large font-weight-400">Scroll down to learn more about me :)</b>
+                                    <b class="main-font text-large font-weight-400">I'm an Information Science Masters Student</b>
+                                    <b class="main-font text-large font-weight-400">I'm a Skilled Systems Designer</b>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end parallax section -->
+        <!-- about us section -->
+        <section id="features" class="border-bottom no-padding-bottom xs-onepage-section">
+            <div class="container">
+                <div class="row">
+                    <!-- section title -->
+                    <div class="col-md-12 text-center">
+                        <span class="title-number">01</span><h3 class="section-title no-padding">About Me</h3>
+                    </div>
+                    <!-- end section title -->
+                </div>
+                <div class="row margin-ten no-margin-bottom">
+                    <div class="col-md-6 col-sm-6 text-center xs-margin-bottom-ten">
+                        <img src='{{ url_for("static", filename="images/about.png") }}'  alt=""/>
+                    </div>
+                    <div class="col-md-6 col-sm-6 sm-margin-bottom-ten">
+                        <div class="col-md-12 col-sm-12 no-padding">
+                            <p class="text-large"> In describing my academic background, I am currently enrolled in a masters course with the Vrije University of Amsterdam, studying for a Masters in Information Sciences specializing in Business Information Systems.  I completed my Bachelors degree  with high honors in Management Information Systems along with a Minor Degree in Business Administration at Ozyegin University, a top and well esteemed university in Istanbul, Turkey.
+                              </br> </br>
+                               My IT experience gives me a unique ability to apply technology, in all its forms, to business processes. Some of my business process knowledge includes accounting, finance, inventory control, budgeting, vendor management and various operational processes. I have experience with software development, IT process improvement, and IT project management. I am very keen on developing myself, and applying my skills in areas that will bring value. </br> </br>
+                              I am very much interested in data and the value it brings. By analyzing data, a wide variety of information can be collected, which can prompt the development of value-adding initiatives. From available data like transaction history, or purchase records, it becomes easy to understand the clients better, make accurate predictions and analysis, and propose products or solutions that are tailored to individual clients. This will not only bring value to the customers, but will also bring organizations closer to their customers, build a closer relationship between them.  </p>
+
+                            <ul class="list-line margin-ten text-med">
+                                <li><span class="font-weight-600">Name:</span> Hameedat Omoine</li>
+                                <li><span class="font-weight-600">Email:</span>hameedatomoine@gmail.com</li>
+                                <li><span class="font-weight-600">Phone:</span> +31(0)6-4753-6977</li>
+                                <li><span class="font-weight-600">Date of birth:</span> 25th of January, 1996</li>
+                                <li><span class="font-weight-600">Nationality:</span> Nigerian</li>
+                            </ul>
+                            <a class="highlight-button-dark btn btn-medium button" href="static/CV-HOmoine.pdf" download >Download CV </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end about us section -->
+        <!-- skills section -->
+        <section id="skills" class="xs-onepage-section">
+            <div class="container">
+                <div class="row">
+                    <!-- section title -->
+                    <div class="col-md-12 text-center">
+                        <span class="title-number">02</span><h3 class="section-title no-padding">Skills</h3>
+                    </div>
+                    <!-- end section title -->
+                </div>
+                <div class="row margin-ten no-margin-bottom">
+                    <!-- features grid -->
+                    <div class="col-md-4 col-sm-12">
+                        <!-- features item -->
+                        <div class="features-section col-md-12 col-sm-6 no-padding">
+                            <div class="col-md-3 col-sm-2 col-xs-2 no-padding"><i class="icon-desktop medium-icon "></i></div>
+                            <div class="col-md-9 col-sm-9 col-xs-9 no-padding text-left f-right">
+                                <h5 class="margin-five no-margin-top">Html5</h5>
+                                <p class="width-90">Speciality in interactive and unique web application solutions with high success ratio in custom html 5 website design and development projects.<br/><br/><br/></p>
+                            </div>
+                        </div>
+                        <!-- end features item -->
+                        <!-- features item -->
+                        <div class="features-section col-md-12 col-sm-6 no-padding no-margin">
+                            <div class="col-md-3 col-sm-2 col-xs-2 no-padding"><i class="icon-target medium-icon"></i></div>
+                            <div class="col-md-9 col-sm-9 col-xs-9 no-padding text-left f-right">
+                                <h5 class="margin-five no-margin-top">python</h5>
+                                <p class="width-90">Able to create, integrate and customize simple responsive applications that are able to meet user requirements.</p>
+                            </div>
+                        </div>
+                        <!-- end features item -->
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <!-- features item -->
+                        <div class="features-section col-md-12 col-sm-6 no-padding">
+                            <div class="col-md-3 col-sm-2 col-xs-2 no-padding"><i class="icon-mobile medium-icon"></i></div>
+                            <div class="col-md-9 col-sm-9 col-xs-9 no-padding text-left f-right">
+                                <h5 class="margin-five no-margin-top">css3</h5>
+                                <p class="width-90">vast experience in CSS3 development thereby birthing interactive and responsive User Experience and User Interface for your web applications using frameworks like Bootstrap, Foundation and Semantic-UI.</p>
+                            </div>
+                        </div>
+                        <!-- end features item -->
+                        <!-- features item -->
+                        <div class="features-section col-md-12 col-sm-6 no-padding no-margin">
+                            <div class="col-md-3 col-sm-2 col-xs-2 no-padding"><i class="icon-scissors medium-icon"></i></div>
+                            <div class="col-md-9 col-sm-9 col-xs-9 no-padding text-left f-right">
+                              <h5 class="margin-five no-margin-top">SQL</h5>
+                              <p class="width-90">Designing high performing websites with custom database development using SQL ranging from MySQL to ms SQL Database for any software development with diverse requirements ranging from simple database to large and complex database.</p>
+                            </div>
+                        </div>
+                        <!-- end features item -->
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <!-- features item -->
+                        <div class="features-section col-md-12 col-sm-6 no-padding">
+                            <div class="col-md-3 col-sm-2 col-xs-2 no-padding"><i class="icon-browser medium-icon"></i></div>
+                            <div class="col-md-9 col-sm-9 col-xs-9 no-padding text-left f-right">
+                                <h5 class="margin-five no-margin-top">javascript</h5>
+                                <p class="width-90">Creating dynamic and customized web applications that can be easily customized and upgraded as per unique business requirements.<br/><br/><br/> </p>
+                            </div>
+                        </div>
+                        <!-- end features item -->
+                        <!-- features item -->
+                        <div class="features-section col-md-12 col-sm-6 no-padding no-margin">
+                            <div class="col-md-3 col-sm-2 col-xs-2 no-padding"><i class="icon-tools medium-icon"></i></div>
+                            <div class="col-md-9 col-sm-9 col-xs-9 no-padding text-left f-right">
+                                <h5 class="margin-five no-margin-top">MS Office</h5>
+                                <p class="width-90"> Have a good command of Microsoft’s suite of productivity products which mainly includes Word, Excel, Access, PowerPoint, and Outlook. Knowledge of the use of MS Office is essential in many businesses, and my skills in them will help me carry out jobs as required.</p>
+                            </div>
+                        </div>
+                        <!-- end features item -->
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- end skills section -->
+        <!-- pie charts section -->
+        <section class="fix-background" style="background-image:url('static/images/benMicPersonal.jpg');">
+            <div class=" bg-black"></div>
+            <div class="container position-relative">
+                <div class="row">
+                    <div class="text-center center-col">
+                        <!-- pie charts -->
+                        <div class="col-md-3 col-sm-3 wow bounceIn xs-margin-bottom-ten">
+                            <div class="chart-percent"><span class="chart white-text" data-percent="90"><span class="percent"></span> </span></div>
+                            <div class="chart-text">
+                                <h5 class="white-text">Systems Design</h5>
+
+                            </div>
+                        </div>
+                        <!-- end pie charts -->
+                        <!-- pie charts -->
+                        <div class="col-md-3 col-sm-3 wow bounceIn xs-margin-bottom-ten">
+                            <div class="chart-percent"><span class="chart white-text" data-percent="80"><span class="percent"></span></span></div>
+                            <div class="chart-text">
+                                <h5 class="white-text">Data Analysis</h5>
+
+                            </div>
+                        </div>
+                        <!-- end pie charts -->
+                        <!-- pie charts -->
+                        <div class="col-md-3 col-sm-3 wow bounceIn xs-margin-bottom-ten">
+                            <div class="chart-percent"><span class="chart white-text" data-percent="80"><span class="percent"></span> </span></div>
+                            <div class="chart-text">
+                                <h5 class="white-text">Database Design</h5>
+
+                            </div>
+                        </div>
+                        <!-- end pie charts -->
+                        <!-- pie charts -->
+                        <div class="col-md-3 col-sm-3 wow bounceIn">
+                            <div class="chart-percent"><span class="chart white-text" data-percent="70"><span class="percent"></span> </span></div>
+                            <div class="chart-text">
+                                <h5 class="white-text">Frontend Development</h5>
+
+                            </div>
+                        </div>
+                        <!-- end pie charts -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end pie charts section -->
+        <!-- education section -->
+        <section id="education" class="xs-onepage-section">
+            <div class="container">
+                <div class="row margin-ten no-margin-top">
+                    <!-- section title -->
+                    <div class="col-md-12 text-center">
+                        <span class="title-number">03</span><h3 class="section-title no-padding">Education</h3>
+                    </div>
+                    <!-- end section title -->
+                </div>
+                <div class="row">
+                    <div id="owl-demo-small" class="col-md-12 owl-carousel owl-theme dark-pagination owl-no-pagination dark-pagination-without-next-prev-arrow position-relative no-padding">
+                        <div class="item">
+                            <!-- education item -->
+                            <div class="col-md-4 col-sm-6 sm-margin-bottom-ten">
+                                <div class="education-box-main text-center">
+                                    <div class="education-box">
+                                        <i class="icon-laptop black-text"></i>
+                                        <span class="year text-large gray-text display-block margin-five">2016</span>
+                                        <span class="university text-uppercase display-block black-text letter-spacing-2 font-weight-600">Vrije University</span>
+                                        <div class="separator-line bg-black margin-ten"></div>
+                                    </div>
+                                    <div class="namerol"><span class="text-uppercase display-block black-text letter-spacing-2 margin-five no-margin-top">Amsterdam, The Netherlands</span>
+                                        <p>MSc. Information Science</p>
+                                        <span class="result text-uppercase white-text font-weight-600 letter-spacing-1">Masters</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end education item -->
+                            <!-- education item -->
+                            <div class="col-md-4 col-sm-6 sm-margin-bottom-ten">
+                                <div class="education-box-main text-center">
+                                    <div class="education-box">
+                                        <i class="icon-video black-text"></i>
+                                        <span class="year text-large gray-text display-block margin-five">2012 - 2016</span>
+                                        <span class="university text-uppercase display-block black-text letter-spacing-2 font-weight-600"> Ozyegin University</span>
+                                        <div class="separator-line bg-black margin-ten"></div>
+                                    </div>
+                                    <div class="namerol"><span class="text-uppercase display-block black-text letter-spacing-2 margin-five no-margin-top">Istanbul, Turkey</span>
+                                        <p> BA. Management Information Systems</p>
+
+                                        <span class="result text-uppercase white-text font-weight-600 letter-spacing-1">Bachelors</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end education item -->
+
+                            <!-- education item -->
+                            <div class="col-md-4 col-sm-6">
+                                <div class="education-box-main text-center">
+                                    <div class="education-box">
+                                        <i class="icon-picture black-text"></i>
+                                        <span class="year text-large gray-text display-block margin-five">2016</span>
+                                        <span class="university text-uppercase display-block black-text letter-spacing-2 font-weight-600">Tilburg University</span>
+                                        <div class="separator-line bg-black margin-ten"></div>
+                                    </div>
+                                    <div class="namerol"><span class="text-uppercase display-block black-text letter-spacing-2 margin-five no-margin-top">Tilburg, The Netherlands</span>
+                                        <p>Exchange Programme</p>
+                                        <span class="result text-uppercase white-text font-weight-600 letter-spacing-1">Exchange</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end education item -->
+                        </div>
+                        <div class="item">
+                            <!-- education item -->
+                            <div class="col-md-3 col-sm-6 sm-margin-bottom-ten">
+                                <div class="education-box-main text-center">
+                                    <div class="education-box">
+                                        <i class="icon-laptop black-text"></i>
+                                        <span class="year text-large gray-text display-block margin-five">2017</span>
+                                        <span class="university text-uppercase display-block black-text letter-spacing-2 font-weight-600">Big data university</span>
+                                        <div class="separator-line bg-black margin-ten"></div>
+                                    </div>
+                                    <div class="namerol"><span class="text-uppercase display-block black-text letter-spacing-2 margin-five no-margin-top">Certificate of Completion</span>
+                                        <p>Machine Learning with Python</p>
+                                        <span class="result text-uppercase white-text font-weight-600 letter-spacing-1">Diploma</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end education item -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end education section -->
+        <!-- awards section -->
+        <section class="fix-background" style="background-image:url('static/images/benAward.jpg');">
+            <div class="overlay-gray"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-10 text-center center-col">
+                        <p class="title-small black-text">Awards can give you a tremendous amount of encouragement to keep getting better, no matter how young or old you are.</p>
+                    </div>
+                </div>
+                <div class="row margin-five no-margin-bottom">
+                    <div class="col-md-10 col-sm-12 text-center center-col">
+                        <!-- awards item -->
+                        <div class="col-md-6 col-sm-6 xs-margin-bottom-ten">
+                            <div class="award-box clearfix">
+                                <div class="col-md-4 col-sm-12">
+                                    <i class="icon-trophy black-text"></i>
+                                </div>
+                                <div class="col-md-8 col-sm-12 text-left text-uppercase black-text letter-spacing-1 sm-text-center sm-margin-top-five">Awardee of the VU Fellowship Programme (VUFP) 2017</div>
+                            </div>
+                        </div>
+                        <!-- end awards item -->
+                        <!-- awards item -->
+                        <div class="col-md-6 col-sm-6 xs-margin-bottom-ten">
+                            <div class="award-box clearfix">
+                                <div class="col-md-4 col-sm-12">
+                                    <i class="icon-circle-compass black-text"></i>
+                                </div>
+                                <div class="col-md-8 col-sm-12 text-left text-uppercase black-text letter-spacing-1 sm-text-center sm-margin-top-five">Awardee of the Ozyegin University Yearly Merit Based Scholarship 2013 - 2016</div>
+                            </div>
+                        </div>
+                        <!-- end awards item -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end awards section -->
+
+
+
+        <section id="portfolio" class="work-4col gutter work-with-title wide wide-title xs-no-padding-bottom">
+            <div class="container">
+                <div class="row">
+                    <!-- section title -->
+                    <div class="col-md-12 text-center corporate-slider sm-margin-bottom-seven">
+                        <span class="title-large text-uppercase font-weight-700 black-text letter-spacing-1">Portfolio</span>
+                    </div>
+                    <!-- end section title -->
+                </div>
+            </div>
+            <div class="container-fluid margin-five no-margin-bottom">
+                <div class="row">
+                    <div class="col-md-12 grid-gallery overflow-hidden no-padding">
+                        <div class="tab-content">
+                            <!-- work grid -->
+                            <ul class="grid masonry-items" style="position: relative; height: 657.034px;">
+
+                              <!-- work item -->
+                              <li style="position: absolute; left: 681px; top: 328px;">
+                                  <figure>
+                                      <div class="gallery-img"><a target="_blank" href="https://www.ecitibiz.interior.gov.ng/"><img src='{{ url_for("static", filename="images/hni1.png") }}' alt=""></a></div>
+                                      <figcaption>
+                                          <h3><a target="_blank" href="https://www.ecitibiz.interior.gov.ng/">eCitiBiz</a></h3>
+                                          <p>Online System &amp; Processes</p>
+                                      </figcaption>
+                                  </figure>
+                              </li>
+                              <!-- end work item -->
+
+                                <!-- work item -->
+                                <li style="position: absolute; left: 340px; top: 0px;">
+                                    <figure>
+                                        <div class="gallery-img"><a target="_blank" href="http://tennisnigeria.com/"><img src='{{ url_for("static", filename="images/ntf2.png") }}'alt=""></a></div>
+                                        <figcaption>
+                                            <h3><a target="_blank" href="http://tennisnigeria.com/">Nigeria Tennis Federation</a></h3>
+                                            <p>Web Application and CMS</p>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                                <!-- end work item -->
+                                <!-- work item -->
+                                <li style="position: absolute; left: 681px; top: 0px;">
+                                    <figure>
+                                        <div class="gallery-img"><a target="_blank" href="http://www.anchordataware.com/"><img src='{{ url_for("static", filename="images/anchor33.png") }}' alt=""></a></div>
+                                        <figcaption>
+                                            <h3><a target="_blank" href="http://www.anchordataware.com/">Anchor Dataware Solutions</a></h3>
+                                            <p>Web Site &amp; Identity</p>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                                <!-- end work item -->
+
+
+
+
+                                <!-- work item -->
+                                <li style="position: absolute; left: 1022px; top: 328px;">
+                                    <figure>
+                                        <div class="gallery-img"><a href="/"><img src='{{ url_for("static", filename= "images/mysite.png") }}' alt=""></a></div>
+                                        <figcaption>
+                                            <h3><a href="/">My Porfolio</a></h3>
+                                            <p>Web Site &amp; Identity</p>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                                <!-- end work item -->
+                            </ul>
+                            <!-- end work grid -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- testimonial section -->
+        <section class="fix-background" style="background-image:url('static/images/benFocused.jpg');">
+            <div class="overlay-gray"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-10 no-padding testimonial-style2 center-col text-center position-relative">
+                        <i class="fa fa-quote-left medium-icon black-text margin-five no-margin-top"></i>
+                        <h6 class="black-text col-xs-12">Focused, hard work is the real key to success. Keep your eyes on the goal, and just keep taking the next step towards completing it. If you aren't sure which way to do something, do it both ways and see which works better.</h6>
+                        <span class="name black-text">John Carmack - Google Inc</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end testimonial section -->
+        <!-- contact us section -->
+        <section id="contact-us" class="xs-onepage-section">
+            <div class="container">
+                <div class="row">
+                    <!-- section title -->
+                    <div class="col-md-12 text-center">
+                        <span class="title-number">05</span><h3 class="section-title no-padding">Contact Me</h3>
+                    </div>
+                    <!-- end section title -->
+                </div>
+
+                <div class="row">
+                    <!-- form -->
+                    <form id="contactusform" action="https://usebasin.com/f/ad268145ee77" method="post">
+                        <div class="col-md-10 col-sm-12 center-col">
+                            <div class="row"><div class="col-md-12 col-sm-12"><div class="margin-ten"></div></div>
+                                <div class="col-md-12 col-sm-12"><div class="alert alert-success" id="success"><strong>Thank you!</strong><br/> I will get back to you as soon as possible!</div></div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <input name="name" type="text" placeholder="Your Name" />
+                                <input name="email" type="text" placeholder="Your Email"  />
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <textarea name="message" placeholder="Your Message" ></textarea>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="col-md-6 col-sm-6 no-padding-left"><span class="required">*Please complete all fields correctly</span></div>
+                                <div class="col-md-3 col-sm-6 f-right no-padding-right"><input id="contact-us-button" name="send message" type="submit" value="send message" class="btn btn-black no-margin-top f-right no-margin-lr"></div>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- end form -->
+                </div>
+            </div>
+        </section>
+        <!-- end contact us section -->
+        <!-- footer -->
+        <footer>
+            <div class=" bg-white footer-top">
+                <div class="container">
+                    <div class="row margin-four">
+                        <!-- phone -->
+                        <div class="col-md-4 col-sm-4 text-center"><i class="icon-phone small-icon black-text"></i><h6 class="black-text margin-two no-margin-bottom">+31(0)647-536-977</h6></div>
+                        <!-- end phone -->
+                        <!-- address -->
+                        <div class="col-md-4 col-sm-4 text-center"><i class="icon-map-pin small-icon black-text"></i><h6 class="black-text margin-two no-margin-bottom">Amsterdam, The Netherlands</h6></div>
+                        <!-- end address -->
+                        <!-- email -->
+                        <div class="col-md-4 col-sm-4 text-center"><i class="icon-envelope small-icon black-text"></i><h6 class="margin-two no-margin-bottom"><a href="mailto:hameedatomoine@gmail.com" class="black-text">hameedatomoine@gmail.com</a></h6></div>
+                        <!-- end email -->
+                    </div>
+                </div>
+            </div>
+            <div class="container onepage-footer-middle">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 footer-social text-right text-center">
+                        <!-- social media link -->
+                        <a target="_blank" href="https://www.facebook.com/profile.php?id=100000908388891"><i class="fa fa-facebook"></i></a>
+                        <a target="_blank" href="https://twitter.com/harmyda"><i class="fa fa-twitter"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/hameedat-omoine-403825b3/"><i class="fa fa-linkedin"></i></a>
+                        <a target="_blank" href="https://github.com/armydah30"><i class="fa fa-github"></i></a>
+                        <!-- end social media link -->
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid bg-dark-gray footer-bottom">
+                <div class="container">
+                    <div class="row margin-three">
+                        <!-- copyright -->
+                        <div class="col-md-6 col-sm-6 col-xs-12 copyright text-left letter-spacing-1 xs-text-center xs-margin-bottom-one">
+                            &copy; 2018 Hami
+                        </div>
+                        <!-- end copyright -->
+                        <!-- logo -->
+                        <div class="col-md-6 col-sm-6 col-xs-12 footer-logo text-right xs-text-center">
+                            <a href="/"><img src='{{ url_for("static", filename="images/hamilogo.png") }}' alt=""/></a>
+                        </div>
+                        <!-- end logo -->
+                    </div>
+
+                </div>
+            </div>
+                <!-- scroll to top -->
+                <a href="javascript:;" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
+                <!-- scroll to top end... -->
+        </footer>
+        <!-- end footer -->
+
+        <!-- javascript libraries / javascript files set #2 -->
+        <script type="text/javascript" src='{{ url_for("static", filename= "js/jquery.min.js") }}'></script>
+        <script type="text/javascript" src='{{ url_for("static", filename="js/modernizr.js") }}'></script>
+        <script type="text/javascript" src='{{ url_for("static", filename="js/bootstrap.js") }}'></script>
+        <script type="text/javascript" src='{{ url_for("static", filename="js/jquery.easing.1.3.js") }}'></script>
+        <script type="text/javascript" src='{{ url_for("static", filename="js/skrollr.min.js") }}'></script>
+        <script type="text/javascript" src='{{ url_for("static", filename="js/jquery.viewport.mini.js") }}'></script>
+        <script type="text/javascript" src='{{ url_for("static", filename="js/smooth-scroll.js") }}'></script>
+        <!-- jquery appear -->
+        <script type="text/javascript" src='{{ url_for("static", filename="js/jquery.appear.js") }}'></script>
+        <!-- animation -->
+        <script type="text/javascript" src='{{ url_for("static", filename="js/wow.min.js") }}'></script>
+        <!-- page scroll -->
+        <script type="text/javascript" src='{{ url_for("static", filename="js/page-scroll.js") }}'></script>
+        <!-- easy piechart-->
+
+        <script type="text/javascript" src='{{ url_for("static", filename="js/jquery.easypiechart.js") }}'></script>
+        <!-- parallax -->
+        <script type="text/javascript" src='{{ url_for("static", filename="js/jquery.parallax-1.1.3.js") }}'></script>
+        <!--portfolio with shorting tab -->
+        <script type="text/javascript" src='{{ url_for("static", filename="js/jquery.isotope.min.js") }}'></script>
+        <!-- owl slider  -->
+        <script type="text/javascript" src='{{ url_for("static", filename="js/owl.carousel.min.js") }}'></script>
+        <!-- magnific popup  -->
+        <script type="text/javascript" src='{{ url_for("static", filename="js/jquery.magnific-popup.min.js") }}'></script>
+        <script type="text/javascript" src='{{ url_for("static", filename="js/popup-gallery.js") }}'></script>
+        <!-- text effect  -->
+        <script type="text/javascript" src='{{ url_for("static", filename="js/text-effect.js") }}'></script>
+        <!-- revolution slider  -->
+        <script type="text/javascript" src='{{ url_for("static", filename="js/jquery.tools.min.js") }}'></script>
+        <script type="text/javascript" src='{{ url_for("static", filename="js/jquery.revolution.js") }}'></script>
+        <!-- counter  -->
+        <script type="text/javascript" src='{{ url_for("static", filename="js/counter.js") }}'></script>
+        <!-- countTo -->
+        <script type="text/javascript" src='{{ url_for("static", filename="js/jquery.countTo.js") }}'></script>
+        <!-- fit videos  -->
+
+        <script type="text/javascript" src='{{ url_for("static", filename="js/jquery.fitvids.js") }}'></script>
+        <!-- imagesloaded  -->
+        <script type="text/javascript" src='{{ url_for("static", filename="js/imagesloaded.pkgd.min.js") }}'></script>
+        <!-- hamburger menu-->
+        <script type="text/javascript" src='{{ url_for("static", filename="js/classie.js") }}'></script>
+        <script type="text/javascript" src='{{ url_for("static", filename="js/hamburger-menu.js") }}'></script>
+        <!-- one page navigation -->
+        <script type="text/javascript" src='{{ url_for("static", filename="js/one-page-main.js") }}'></script>
+        <!-- setting -->
+        <script type="text/javascript" src='{{ url_for("static", filename="js/main.js") }}'></script>
+    </body>
+
+
+</html>
