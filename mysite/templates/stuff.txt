@@ -1,0 +1,73 @@
+<section id="portfolio" class="work-4col gutter work-with-title wide wide-title xs-no-padding-bottom">
+    <div class="container">
+        <div class="row">
+            <!-- section title -->
+            <div class="col-md-12 text-center corporate-slider sm-margin-bottom-seven">
+                <span class="title-large text-uppercase font-weight-700 black-text letter-spacing-1">Portfolio</span>
+            </div>
+            <!-- end section title -->
+        </div>
+    </div>
+    <div class="container-fluid margin-five no-margin-bottom">
+        <div class="row">
+            <div class="col-md-12 grid-gallery overflow-hidden no-padding">
+                <div class="tab-content">
+                    <!-- work grid -->
+                    <ul class="grid masonry-items" style="position: relative; height: 657.034px;">
+
+                      <!-- work item -->
+                      <li style="position: absolute; left: 681px; top: 328px;">
+                          <figure>
+                              <div class="gallery-img"><a target="_blank" href="https://www.ecitibiz.interior.gov.ng/"><img src='{{ url_for("static", filename="images/hni1.png") }}' alt=""></a></div>
+                              <figcaption>
+                                  <h3><a target="_blank" href="https://www.ecitibiz.interior.gov.ng/">eCitiBiz</a></h3>
+                                  <p>Online System &amp; Processes</p>
+                              </figcaption>
+                          </figure>
+                      </li>
+                      <!-- end work item -->
+
+                        <!-- work item -->
+                        <li style="position: absolute; left: 340px; top: 0px;">
+                            <figure>
+                                <div class="gallery-img"><a target="_blank" href="http://tennisnigeria.com/"><img src='{{ url_for("static", filename="images/ntf2.png") }}'alt=""></a></div>
+                                <figcaption>
+                                    <h3><a target="_blank" href="http://tennisnigeria.com/">Nigeria Tennis Federation</a></h3>
+                                    <p>Web Application and CMS</p>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <!-- end work item -->
+                        <!-- work item -->
+                        <li style="position: absolute; left: 681px; top: 0px;">
+                            <figure>
+                                <div class="gallery-img"><a target="_blank" href="http://www.anchordataware.com/"><img src='{{ url_for("static", filename="images/anchor33.png") }}' alt=""></a></div>
+                                <figcaption>
+                                    <h3><a target="_blank" href="http://www.anchordataware.com/">Anchor Dataware Solutions</a></h3>
+                                    <p>Web Site &amp; Identity</p>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <!-- end work item -->
+
+
+
+
+                        <!-- work item -->
+                        <li style="position: absolute; left: 1022px; top: 328px;">
+                            <figure>
+                                <div class="gallery-img"><a href="/"><img src='{{ url_for("static", filename= "images/mysite.png") }}' alt=""></a></div>
+                                <figcaption>
+                                    <h3><a href="/">My Porfolio</a></h3>
+                                    <p>Web Site &amp; Identity</p>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <!-- end work item -->
+                    </ul>
+                    <!-- end work grid -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
